@@ -1,0 +1,19 @@
+{
+    "namespace": "energy.kafka",
+    "type": "record",
+    "name": "Event",
+    "fields": [
+        {"name": "device_id", "type": "string"},
+        {"name": "charging", "type": "int"},
+        {"name": "charging_source", "type": ["null", "string"]},
+        {"name": "processor1_temp", "type": ["null", "int"]},
+        {"name": "processor2_temp", "type": ["null", "int"]},
+        {"name": "processor3_temp", "type": ["null", "int"]},
+        {"name": "processor4_temp", "type": ["null", "int"]},
+        {"name": "current_capacity", "type": ["null", "int"]},
+        {"name": "inverter_state", "type": ["null", "int"]},
+        {"name": "moduleL_temp", "type": ["null", "int"]},
+        {"name": "moduleR_temp", "type": ["null", "int"]},
+        {"name": "SoC_regulator", "type": ["null", "float"]}
+    ]
+}

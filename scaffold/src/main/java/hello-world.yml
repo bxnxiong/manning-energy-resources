@@ -1,0 +1,8 @@
+template: Hello, %s!
+defaultName: Stranger
+
+database:
+  driverClass: org.postgresql.Driver
+  user: postgres
+  password: secret
+  url: "jdbc:postgresql://0.0.0.0:5432/postgres"
